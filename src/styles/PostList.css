@@ -1,0 +1,27 @@
+.posts
+{
+  padding: 40px;
+}
+.posts__list
+{
+  max-width: 460px;
+}
+.posts__item
+{
+  margin-bottom: 10px;
+  padding: 20px;
+  border: 1px solid #f2f2f2;
+  transition: ease .3s;
+  cursor: pointer;
+}
+.posts__item:hover
+{
+  background-color: #f2f2f2;
+}
+@media screen and (max-width: 767px)
+{
+  .posts
+  {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,82 @@
+.create
+{
+  padding: 40px;
+  max-width: 400px;
+  width: 100%;
+}
+.create__title
+{
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.create__label
+{
+  display: block;
+  margin-bottom: 20px;
+}
+.create__input
+{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 100%;
+  height: 35px;
+  padding: 10px;
+  border-radius: 0;
+  outline: none;
+  border: 1px solid #000;
+}
+.create__input--textarea
+{
+  resize: none;
+  height: 150px;
+}
+.create__error
+{
+  font-size: 14px;
+  color: red;
+}
+.create__button
+{
+  display: inline-block;
+  vertical-align: top;
+  width: 150px;
+  height: 45px;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 0;
+  outline: none;
+  transition: ease .3s;
+  cursor: pointer;
+}
+input.create__button
+{
+  margin-right: 20px;
+}
+.create__button:hover
+{
+  background-color: #000;
+  color: #fff;
+}
+@media screen and (max-width: 767px)
+{
+  .create
+  {
+    padding: 20px;
+  }
+  .create__button
+  {
+    width: 100%;
+  }
+  input.create__button
+  {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

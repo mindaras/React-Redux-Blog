@@ -1,0 +1,46 @@
+.post
+{
+  max-width: 600px;
+  width: 100%;
+  padding: 40px;
+}
+.post__categories
+{
+  margin-bottom: 40px;
+}
+.post__content
+{
+  line-height: 1.4;
+}
+.bold
+{
+  font-weight: 700;
+}
+.post__delete
+{
+  display: inline-block;
+  width: 150px;
+  padding: 15px 0;
+  border: 1px solid #000;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  transition: ease .3s;
+  cursor: pointer;
+}
+.post__delete:hover
+{
+  background-color: #000;
+  color: #fff;
+}
+@media screen and (max-width: 767px)
+{
+  .post
+  {
+    padding: 20px;
+  }
+  .post__delete
+  {
+    width: 130px;
+  }
+}
